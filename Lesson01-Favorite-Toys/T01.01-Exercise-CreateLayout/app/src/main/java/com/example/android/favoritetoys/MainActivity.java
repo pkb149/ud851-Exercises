@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 package com.example.android.favoritetoys;
+//package T01.01-Exercise-CreateLayout.app.src.main.java.com.example.android.favoritetoys;
+
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
