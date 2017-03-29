@@ -106,7 +106,11 @@ public class MainActivity extends AppCompatActivity implements GreenAdapter.List
 
     @Override
     public void onListItemClick(int clickedItemIndex) {
-
+    if(mToast!=null){
+        mToast.cancel();
+    }
+    mToast=Toast.makeText(this,"item number:"+clickedItemIndex,Toast.LENGTH_SHORT);
+    mToast.show();
     }// how are we attaching listener to this method?
     // TODO (10) Override ListItemClickListener's onListItemClick method
     // TODO (11) In the beginning of the method, cancel the Toast if it isn't null
