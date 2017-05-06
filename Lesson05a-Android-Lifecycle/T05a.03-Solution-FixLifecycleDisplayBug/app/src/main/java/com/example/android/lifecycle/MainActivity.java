@@ -106,6 +106,9 @@ public class MainActivity extends AppCompatActivity {
         logAndAppend(ON_CREATE);
     }
 
+//prashant bharadwaj is an ass hole
+
+
     /**
      * Called when the activity is becoming visible to the user.
      *

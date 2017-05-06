@@ -114,8 +114,11 @@ public class MainActivity extends AppCompatActivity {
             if (githubSearchResults != null && !githubSearchResults.equals("")) {
 
                 showJsonDataview();
+                mSearchResultsTextView.setText(githubSearchResults);
             }
-            showErrorMessage();
+            else {
+                showErrorMessage();
+            }
         }
     }
 

@@ -22,7 +22,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         // COMPLETED (7) Replace the Toast with a call to showMap, passing in the Uri from the previous step
         showMap(addressUri);
+        Toast.makeText(getApplicationContext(),addressUri.toString(),Toast.LENGTH_LONG);
     }
 
     /**
